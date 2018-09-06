@@ -1,4 +1,4 @@
-package com.ardroid.ardafatma.ui.adapters;
+package com.ardakaplan.rdapageindicator;
 
 import android.app.Activity;
 import android.view.View;

@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         sds.add("asdasda");
         sds.add("asdasda");
 
-        viewPager.setAdapter(new com.ardroid.ardafatma.ui.adapters.TimeCountersViewPagerAdapter(this, sds));
+        viewPager.setAdapter(new TimeCountersViewPagerAdapter(this, sds));
 
         circlePageIndicator.setViewPager(viewPager);
     }
