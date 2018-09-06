@@ -1,1 +1,1 @@
-include ':app', ':RDAPageIndicator'
+include ':app', ':RDAPageIndicator', ':module'

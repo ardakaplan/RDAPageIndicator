@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         circlePageIndicator = findViewById(R.id.time_counters_circlepageindicator);
 
         ArrayList<String> sds = new ArrayList<>();
-
+//sadasdasdadsaasdas
         sds.add("asdasda");
         sds.add("asdasda");
         sds.add("asdasda");
