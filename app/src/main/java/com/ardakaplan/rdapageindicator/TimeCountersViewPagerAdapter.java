@@ -5,8 +5,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.ardakaplan.rdalibrary.ui.adapters.GeneralPagerAdapter;
-import com.ardakaplan.rdapageindicator.R;
+import com.ardakaplan.rdalibrary.ui.adapters.RDAPagerAdapter;
 
 import java.util.ArrayList;
 
@@ -18,7 +17,7 @@ import java.util.ArrayList;
  * <p/>
  * arda.kaplan09@gmail.com
  */
-public class TimeCountersViewPagerAdapter extends GeneralPagerAdapter<String> {
+public class TimeCountersViewPagerAdapter extends RDAPagerAdapter<String> {
 
     public TimeCountersViewPagerAdapter(Activity activity, ArrayList<String> arrayList) {
         super(activity, arrayList, R.layout.item_viewpager);
